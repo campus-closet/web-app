@@ -10,6 +10,11 @@ export interface Product {
   is_active?: boolean;
   created_at?: string;
   updated_at?: string;
+  options?: {
+    colors: string[];
+    sizes: string[];
+    logo: string[];
+  };
 }
 
 export interface CartItem {

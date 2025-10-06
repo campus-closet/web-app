@@ -6,8 +6,8 @@ import Navbar from './components/Navbar';
 import Login from './components/Login';
 import Products from './components/Products';
 import Cart from './components/Cart';
-import Checkout from './components/Checkout';
-import AdminPanel from './components/AdminPanel';
+import EnhancedCheckout from './components/EnhancedCheckout';
+import NewAdminPanel from './components/NewAdminPanel';
 import Billing from './components/Billing';
 
 function AppContent() {
@@ -26,10 +26,10 @@ function AppContent() {
           <Route path="/" element={isAdmin ? <Navigate to="/products" /> : <Login />} />
           <Route path="/products" element={<Products />} />
           <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/checkout" element={<EnhancedCheckout />} />
           <Route
             path="/admin"
-            element={isAdmin ? <AdminPanel /> : <Navigate to="/" />}
+            element={isAdmin ? <NewAdminPanel /> : <Navigate to="/" />}
           />
           <Route
             path="/billing"
