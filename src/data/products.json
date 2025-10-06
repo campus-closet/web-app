@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "name": "Classic Campus Tee",
+    "description": "Premium cotton t-shirt with custom logo options",
+    "price": 499,
+    "image": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "options": {
+      "colors": ["White", "Black", "Navy", "Grey"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "logo": ["No Logo", "Campus Closet", "Custom Text"]
+    }
+  },
+  {
+    "id": "2",
+    "name": "Premium Hoodie",
+    "description": "Warm and comfortable hoodie with fleece lining",
+    "price": 1299,
+    "image": "https://images.pexels.com/photos/5710086/pexels-photo-5710086.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "options": {
+      "colors": ["Black", "Navy", "Maroon", "Olive"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "logo": ["No Logo", "Campus Closet", "Custom Text"]
+    }
+  },
+  {
+    "id": "3",
+    "name": "Casual Joggers",
+    "description": "Comfortable joggers perfect for everyday wear",
+    "price": 899,
+    "image": "https://images.pexels.com/photos/8148579/pexels-photo-8148579.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "options": {
+      "colors": ["Black", "Grey", "Navy"],
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "logo": ["No Logo", "Campus Closet"]
+    }
+  },
+  {
+    "id": "4",
+    "name": "Campus Cap",
+    "description": "Stylish cap with embroidered logo",
+    "price": 399,
+    "image": "https://images.pexels.com/photos/984619/pexels-photo-984619.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "options": {
+      "colors": ["Black", "White", "Navy", "Red"],
+      "sizes": ["One Size"],
+      "logo": ["No Logo", "Campus Closet", "Custom Text"]
+    }
+  },
+  {
+    "id": "5",
+    "name": "College Backpack",
+    "description": "Spacious backpack with laptop compartment",
+    "price": 1799,
+    "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "options": {
+      "colors": ["Black", "Navy", "Grey"],
+      "sizes": ["One Size"],
+      "logo": ["No Logo", "Campus Closet"]
+    }
+  },
+  {
+    "id": "6",
+    "name": "Denim Jacket",
+    "description": "Classic denim jacket with modern fit",
+    "price": 1599,
+    "image": "https://images.pexels.com/photos/1124468/pexels-photo-1124468.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "options": {
+      "colors": ["Light Blue", "Dark Blue", "Black"],
+      "sizes": ["S", "M", "L", "XL"],
+      "logo": ["No Logo", "Campus Closet", "Custom Text"]
+    }
+  }
+]
