@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Plus, Trash2, Edit2, Clock, CheckCircle, XCircle } from 'lucide-react';
+import { Plus, Trash2, CreditCard as Edit2, Clock, CheckCircle, XCircle } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { Account } from '../types';
 import bcrypt from 'bcryptjs';

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Plus, Trash2, Edit2, Download, Upload, Image as ImageIcon } from 'lucide-react';
+import { Plus, Trash2, CreditCard as Edit2, Download, Upload, Image as ImageIcon } from 'lucide-react';
 import { supabase } from '../lib/supabase';
 import { Product } from '../types';
 import { exportProductsToCSV, exportInvoicesToCSV, exportAnalyticsToCSV } from '../utils/csvExport';
