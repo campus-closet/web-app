@@ -8,11 +8,12 @@ export default function Login() {
   const [error, setError] = useState('');
   const { login } = useApp();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
 
-    if (login(username, password)) {
+    const success = await login(username, password);
+    if (success) {
       setUsername('');
       setPassword('');
     } else {
